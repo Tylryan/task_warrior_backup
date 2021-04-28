@@ -31,6 +31,10 @@
 #include /usr/share/doc/task/rc/no-color.theme
 
 
+############################# OTHER ################################################
+editor=nvim	
+
+context.Coding_Projects=+Tracker
 
 #####################Custom Modifications#######################
 
@@ -62,7 +66,7 @@ report.next.sort=urgency-
 # Personal Tasks
 report.Personal.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,due,until.remaining,description.count,urgency
 report.Personal.description=Non-Repetitive Tasks You Want To Eventually Get To
-report.Personal.filter=status:pending and tags:Personal limit:15
+report.Personal.filter=status:pending and tags:Personal limit:20
 report.Personal.labels=ID,Active,Age,D,P,Project,R,Sch,Due,Until,Description,Urg
 report.Personal.sort=urgency-,priority-,project+
 
@@ -73,12 +77,28 @@ report.Deleted.filter=status:deleted
 report.Deleted.labels=UUID,Age,Project,R,Description
 report.Deleted.sort=uuid-
 
-# One Day Overdue Task: Only Show overdue by one day.
+# Tasks Due Yesterday
 report.Overdue.columns=id,start.age,entry.age,depends,priority,project,tags,recur.indicator,scheduled.countdown,due,until,description,urgency
 report.Overdue.description=Tasks That Are Overdue By One Day
 report.Overdue.filter=(status:pending or status:waiting) and +OVERDUE and due:yesterday                                                                       
 report.Overdue.labels=ID,Active,Age,Deps,P,Project,Tag,R,S,Due,Until,Description,Urg
 report.Overdue.sort=urgency-,due+
+
+
+# Coding Projects I Got Going On
+
+report.Coding.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
+report.Coding.description=All Tasks Related to Personal Coding Projects
+report.Coding.filter=tags:Tracker limit:5
+report.Coding.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
+report.Coding.sort=priority-,urgency-,project+ 
+
+# List all Tasks By Project
+report.Projects.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
+report.Projects.description=All Current Tasks By Project
+report.Projects.filter=status:pending and recur=false
+report.Projects.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
+report.Projects.sort=project-,due+,urgency-
 # Removing the annoying TASKRC override warnings.
 verbose=blank,footnote,label,new-id,affected,edit,special,project,sync,unwait
 ############################## UDA #################################################
@@ -109,8 +129,6 @@ color.summary.bar=on color14
 color.summary.background=on color0
 color.alternate=on gray5
 
-############################# OTHER ################################################
-editor=nvim	
 ############################## SYNCING ################################################
 
 # This is server information used to syn my devices.
@@ -121,4 +139,3 @@ taskd.ca=~/.config/task/.task/freecinc_a652c78c.ca.pem
 taskd.credentials=FreeCinc\/freecinc_a652c78c\/06d35d56-9f92-42fe-9c11-32e4bf47686d
 
 
-daily=limit:15

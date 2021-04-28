@@ -1,5 +1,1 @@
-55dbe94a-0406-4aa4-9aba-d763ed4de930
-{"description":"Javascript","due":"20210424T030000Z","entry":"20210423T074935Z","mask":"+-++-","modified":"20210427T213912Z","project":"Javascript","recur":"daily","status":"recurring","tags":["Daily"],"uuid":"711c453f-f1bb-4d98-9126-4ef90172630d"}
-{"description":"Javascript","due":"20210427T030000Z","end":"20210427T213912Z","entry":"20210426T051022Z","imask":3.000000,"modified":"20210427T213912Z","parent":"711c453f-f1bb-4d98-9126-4ef90172630d","project":"Javascript","recur":"daily","status":"completed","tags":["Daily"],"uuid":"52946719-84fa-469b-a2ba-f1e2d3a37a26"}
-{"description":"Make Your Bed","due":"20210319T030000Z","entry":"20210318T031848Z","mask":"++++++++++++++++X++++++X++X++++++++++-+++","modified":"20210427T213930Z","project":"Cleaning","recur":"daily","status":"recurring","tags":["Daily"],"uuid":"9d663616-b918-49b0-af77-221b29d7ff9e"}
-{"description":"Make Your Bed","due":"20210428T030000Z","end":"20210427T213930Z","entry":"20210427T030158Z","imask":40.000000,"modified":"20210427T213930Z","parent":"9d663616-b918-49b0-af77-221b29d7ff9e","project":"Cleaning","recur":"daily","status":"completed","tags":["Daily"],"uuid":"7eec4b6b-0b73-4b05-84ed-8b86e90885b5"}
+d4e09563-675b-48ca-b098-b2e5d1839f85

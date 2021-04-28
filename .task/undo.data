@@ -8519,3 +8519,192 @@ time 1619559570
 old [description:"Make Your Bed" due:"1619578800" entry:"1619492518" imask:"40.000000" modified:"1619413821" parent:"9d663616-b918-49b0-af77-221b29d7ff9e" project:"Cleaning" recur:"daily" status:"pending" tags:"Daily" uuid:"7eec4b6b-0b73-4b05-84ed-8b86e90885b5"]
 new [description:"Make Your Bed" due:"1619578800" end:"1619559570" entry:"1619492518" imask:"40.000000" modified:"1619559570" parent:"9d663616-b918-49b0-af77-221b29d7ff9e" project:"Cleaning" recur:"daily" status:"completed" tags:"Daily" uuid:"7eec4b6b-0b73-4b05-84ed-8b86e90885b5"]
 ---
+time 1619606822
+new [description:"Make Your Bed" due:"1619665200" entry:"1619606822" imask:"41.000000" modified:"1619559570" parent:"9d663616-b918-49b0-af77-221b29d7ff9e" project:"Cleaning" recur:"daily" status:"pending" tags:"Daily" uuid:"867c9388-8ca9-4041-a588-1a2a16ddad17"]
+---
+time 1619606823
+old [description:"Make Your Bed" due:"1616122800" entry:"1616037528" mask:"++++++++++++++++X++++++X++X++++++++++-+++" modified:"1619559570" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"9d663616-b918-49b0-af77-221b29d7ff9e"]
+new [description:"Make Your Bed" due:"1616122800" entry:"1616037528" mask:"++++++++++++++++X++++++X++X++++++++++-+++-" modified:"1619606823" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"9d663616-b918-49b0-af77-221b29d7ff9e"]
+---
+time 1619606823
+new [description:"Brush Yer Teef" due:"1619665200" entry:"1619606823" imask:"41.000000" modified:"1619492534" parent:"82a63545-9aa5-4e00-823b-c326fc3cb544" project:"Cleaning" recur:"daily" status:"pending" tags:"Daily" uuid:"483747e9-3742-4760-9a80-5d486cdf2a76"]
+---
+time 1619606823
+old [description:"Brush Yer Teef" due:"1616122800" entry:"1616037929" mask:"++++++++++++++++X++++++X++X++++++++++-++-" modified:"1619492534" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"82a63545-9aa5-4e00-823b-c326fc3cb544"]
+new [description:"Brush Yer Teef" due:"1616122800" entry:"1616037929" mask:"++++++++++++++++X++++++X++X++++++++++-++--" modified:"1619606823" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"82a63545-9aa5-4e00-823b-c326fc3cb544"]
+---
+time 1619606823
+new [description:"Study Python" due:"1619665200" entry:"1619606823" imask:"41.000000" modified:"1619492534" parent:"55d0d923-053f-42c9-96ee-534b6ca4fa5e" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"59386db7-ac5a-49ea-bf81-d2404f1be2d6"]
+---
+time 1619606823
+old [description:"Study Python" due:"1616122800" entry:"1616038036" mask:"++++++++++++X+X+X++++++X++X++X++++++X-++-" modified:"1619492534" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"55d0d923-053f-42c9-96ee-534b6ca4fa5e"]
+new [description:"Study Python" due:"1616122800" entry:"1616038036" mask:"++++++++++++X+X+X++++++X++X++X++++++X-++--" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"55d0d923-053f-42c9-96ee-534b6ca4fa5e"]
+---
+time 1619606823
+new [description:"Study Bash\/Linux\/Sysadmin" due:"1619661600" entry:"1619606823" imask:"41.000000" modified:"1619492519" parent:"87c4b061-0bfc-42c0-9509-f47331743524" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"0b17be7d-6c11-4906-949f-586fa96ebbde"]
+---
+time 1619606823
+old [description:"Study Bash\/Linux\/Sysadmin" due:"1616119200" entry:"1616038070" mask:"+++X++++XXXXXXXXX+XXX+XXXXXXXXXXXXXXX----" modified:"1619492519" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"87c4b061-0bfc-42c0-9509-f47331743524"]
+new [description:"Study Bash\/Linux\/Sysadmin" due:"1616119200" entry:"1616038070" mask:"+++X++++XXXXXXXXX+XXX+XXXXXXXXXXXXXXX-----" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"87c4b061-0bfc-42c0-9509-f47331743524"]
+---
+time 1619606823
+new [description:"Dvorak" due:"1619665200" entry:"1619606823" imask:"41.000000" modified:"1619492519" parent:"62adf8c2-96b2-458d-a668-6b37e6c4388e" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"91671d31-8983-4a76-9515-51cab9d42bbb"]
+---
+time 1619606823
+old [description:"Dvorak" due:"1616122800" entry:"1616084643" mask:"+XXX+XX+++++X+XXX+XX++XX++X+XX++XX+XX-+--" modified:"1619492519" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"62adf8c2-96b2-458d-a668-6b37e6c4388e"]
+new [description:"Dvorak" due:"1616122800" entry:"1616084643" mask:"+XXX+XX+++++X+XXX+XX++XX++X+XX++XX+XX-+---" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"62adf8c2-96b2-458d-a668-6b37e6c4388e"]
+---
+time 1619606823
+new [description:"Go to the Gym" due:"1619665200" entry:"1619606823" imask:"41.000000" modified:"1619498832" parent:"2796c112-9406-4dbc-9ef0-2948defc7dd0" project:"Work_Out" recur:"daily" status:"pending" tags:"Daily" uuid:"b5eb6de0-6922-4429-9d85-16ada49c6d9f"]
+---
+time 1619606823
+old [description:"Go to the Gym" due:"1616122800" entry:"1616093190" mask:"+XX++++++++X++++X++++X+X++X++++++++++-+--" modified:"1619498832" project:"Work_Out" recur:"daily" status:"recurring" tags:"Daily" uuid:"2796c112-9406-4dbc-9ef0-2948defc7dd0"]
+new [description:"Go to the Gym" due:"1616122800" entry:"1616093190" mask:"+XX++++++++X++++X++++X+X++X++++++++++-+---" modified:"1619606823" project:"Work_Out" recur:"daily" status:"recurring" tags:"Daily" uuid:"2796c112-9406-4dbc-9ef0-2948defc7dd0"]
+---
+time 1619606823
+new [description:"Study Python Round 2" due:"1619665200" entry:"1619606823" imask:"40.000000" modified:"1619498487" parent:"518effed-aa47-4f3a-9cdf-30331c3ff23e" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"56b4cbc9-82a6-4381-9c91-70c8d232608e"]
+---
+time 1619606823
+old [description:"Study Python Round 2" due:"1616209200" entry:"1616176124" mask:"XX++X++++XXXXXXX+XX+X+X++X++XX++XX+X-++-" modified:"1619498487" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"518effed-aa47-4f3a-9cdf-30331c3ff23e"]
+new [description:"Study Python Round 2" due:"1616209200" entry:"1616176124" mask:"XX++X++++XXXXXXX+XX+X+X++X++XX++XX+X-++--" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"518effed-aa47-4f3a-9cdf-30331c3ff23e"]
+---
+time 1619606823
+new [description:"Hacker Rank or something like it" due:"1619665200" entry:"1619606823" imask:"35.000000" modified:"1619492519" parent:"b838075a-9457-4b32-a40b-aa8243ab8073" project:"Python" recur:"daily" status:"pending" tags:"Daily" uuid:"e69bf0e7-f2a7-4409-aea0-dbb297762d03"]
+---
+time 1619606823
+old [description:"Hacker Rank or something like it" due:"1616641200" entry:"1616626195" mask:"X+XXXXXXX+XXXXXXXXXXXXXXXXXXXXX----" modified:"1619492519" project:"Python" recur:"daily" status:"recurring" tags:"Daily" uuid:"b838075a-9457-4b32-a40b-aa8243ab8073"]
+new [description:"Hacker Rank or something like it" due:"1616641200" entry:"1616626195" mask:"X+XXXXXXX+XXXXXXXXXXXXXXXXXXXXX-----" modified:"1619606823" project:"Python" recur:"daily" status:"recurring" tags:"Daily" uuid:"b838075a-9457-4b32-a40b-aa8243ab8073"]
+---
+time 1619606823
+new [description:"Web Dev (HTML, CSS)" due:"1619665200" entry:"1619606823" imask:"31.000000" modified:"1619498804" parent:"e1a53026-c09a-40ab-95d6-de6fb2e47a5b" project:"Web_Dev" recur:"daily" status:"pending" tags:"Daily" uuid:"52b65b24-a6e2-4bc2-a4bb-b4318952e8a9"]
+---
+time 1619606824
+old [description:"Web Dev (HTML, CSS)" due:"1616986800" entry:"1616983549" mask:"++X+XXX+XX+++X+XX++X+++XXXX----" modified:"1619498804" project:"Web_Dev" recur:"daily" status:"recurring" tags:"Daily" uuid:"e1a53026-c09a-40ab-95d6-de6fb2e47a5b"]
+new [description:"Web Dev (HTML, CSS)" due:"1616986800" entry:"1616983549" mask:"++X+XXX+XX+++X+XX++X+++XXXX-----" modified:"1619606824" project:"Web_Dev" recur:"daily" status:"recurring" tags:"Daily" uuid:"e1a53026-c09a-40ab-95d6-de6fb2e47a5b"]
+---
+time 1619606824
+new [description:"Javascript" due:"1619665200" entry:"1619606824" imask:"5.000000" modified:"1619559552" parent:"711c453f-f1bb-4d98-9126-4ef90172630d" project:"Javascript" recur:"daily" status:"pending" tags:"Daily" uuid:"af100744-37fc-428c-808c-3d1919e74406"]
+---
+time 1619606824
+old [description:"Javascript" due:"1619233200" entry:"1619164175" mask:"+-++-" modified:"1619559552" project:"Javascript" recur:"daily" status:"recurring" tags:"Daily" uuid:"711c453f-f1bb-4d98-9126-4ef90172630d"]
+new [description:"Javascript" due:"1619233200" entry:"1619164175" mask:"+-++--" modified:"1619606824" project:"Javascript" recur:"daily" status:"recurring" tags:"Daily" uuid:"711c453f-f1bb-4d98-9126-4ef90172630d"]
+---
+time 1619606865
+old [description:"Brush Yer Teef" due:"1616122800" entry:"1616037929" mask:"++++++++++++++++X++++++X++X++++++++++-++--" modified:"1619606823" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"82a63545-9aa5-4e00-823b-c326fc3cb544"]
+new [description:"Brush Yer Teef" due:"1616122800" entry:"1616037929" mask:"++++++++++++++++X++++++X++X++++++++++-+++-" modified:"1619606865" project:"Cleaning" recur:"daily" status:"recurring" tags:"Daily" uuid:"82a63545-9aa5-4e00-823b-c326fc3cb544"]
+---
+time 1619606865
+old [description:"Brush Yer Teef" due:"1619578800" entry:"1619492518" imask:"40.000000" modified:"1619430368" parent:"82a63545-9aa5-4e00-823b-c326fc3cb544" project:"Cleaning" recur:"daily" status:"pending" tags:"Daily" uuid:"87881c09-4410-4ffa-8d95-10d33f5d5b1a"]
+new [description:"Brush Yer Teef" due:"1619578800" end:"1619606863" entry:"1619492518" imask:"40.000000" modified:"1619606865" parent:"82a63545-9aa5-4e00-823b-c326fc3cb544" project:"Cleaning" recur:"daily" status:"completed" tags:"Daily" uuid:"87881c09-4410-4ffa-8d95-10d33f5d5b1a"]
+---
+time 1619606865
+old [description:"Study Python" due:"1616122800" entry:"1616038036" mask:"++++++++++++X+X+X++++++X++X++X++++++X-++--" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"55d0d923-053f-42c9-96ee-534b6ca4fa5e"]
+new [description:"Study Python" due:"1616122800" entry:"1616038036" mask:"++++++++++++X+X+X++++++X++X++X++++++X-+++-" modified:"1619606865" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"55d0d923-053f-42c9-96ee-534b6ca4fa5e"]
+---
+time 1619606865
+old [description:"Study Python" due:"1619578800" entry:"1619492519" imask:"40.000000" modified:"1619413831" parent:"55d0d923-053f-42c9-96ee-534b6ca4fa5e" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"f921eae6-4fd8-451e-b1ff-0dc47497bc04"]
+new [description:"Study Python" due:"1619578800" end:"1619606865" entry:"1619492519" imask:"40.000000" modified:"1619606865" parent:"55d0d923-053f-42c9-96ee-534b6ca4fa5e" project:"Study" recur:"daily" status:"completed" tags:"Daily" uuid:"f921eae6-4fd8-451e-b1ff-0dc47497bc04"]
+---
+time 1619606865
+old [description:"Study Python Round 2" due:"1616209200" entry:"1616176124" mask:"XX++X++++XXXXXXX+XX+X+X++X++XX++XX+X-++--" modified:"1619606823" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"518effed-aa47-4f3a-9cdf-30331c3ff23e"]
+new [description:"Study Python Round 2" due:"1616209200" entry:"1616176124" mask:"XX++X++++XXXXXXX+XX+X+X++X++XX++XX+X-+++-" modified:"1619606865" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"518effed-aa47-4f3a-9cdf-30331c3ff23e"]
+---
+time 1619606865
+old [description:"Study Python Round 2" due:"1619578800" entry:"1619492519" imask:"39.000000" modified:"1619416901" parent:"518effed-aa47-4f3a-9cdf-30331c3ff23e" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"84228dff-1aaa-469a-8d24-dae263bc5f8d"]
+new [description:"Study Python Round 2" due:"1619578800" end:"1619606865" entry:"1619492519" imask:"39.000000" modified:"1619606865" parent:"518effed-aa47-4f3a-9cdf-30331c3ff23e" project:"Study" recur:"daily" status:"completed" tags:"Daily" uuid:"84228dff-1aaa-469a-8d24-dae263bc5f8d"]
+---
+time 1619606953
+new [description:"Look Into Zsh" entry:"1619606952" modified:"1619606952" priority:"M" project:"Terminal.Zsh" status:"pending" tags:"Personal" uuid:"e06b3d06-28fc-4719-aedc-c71b3e3bafb8"]
+---
+time 1619607015
+new [description:"Look into Window Managers" entry:"1619607015" modified:"1619607015" project:"Terminal.Window_Mnger" status:"pending" tags:"Personal" uuid:"36aea304-d11e-49d4-a2c2-8faeb5b1cffa"]
+---
+time 1619607079
+old [description:"Look into Window Managers" entry:"1619607015" modified:"1619607015" project:"Terminal.Window_Mnger" status:"pending" tags:"Personal" uuid:"36aea304-d11e-49d4-a2c2-8faeb5b1cffa"]
+new [description:"Look into Window Managers" entry:"1619607015" modified:"1619607079" priority:"M" project:"Terminal.Window_Mnger" status:"pending" tags:"Personal" uuid:"36aea304-d11e-49d4-a2c2-8faeb5b1cffa"]
+---
+time 1619607098
+old [description:"Create a Bash Script that copies Task Warrior task, taskrc, and anything else that you need to directly mimic the experience on my computer." entry:"1616306189" modified:"1616306189" project:"Bash_Scripting" status:"pending" tags:"Personal" uuid:"6602adfd-6205-401f-8c17-c571ff35be5a"]
+new [description:"Create a Bash Script that copies Task Warrior task, taskrc, and anything else that you need to directly mimic the experience on my computer." end:"1619607098" entry:"1616306189" modified:"1619607098" project:"Bash_Scripting" status:"completed" tags:"Personal" uuid:"6602adfd-6205-401f-8c17-c571ff35be5a"]
+---
+time 1619607121
+old [annotation_1618397336:"Helps with understanding Sysadmin concepts" description:"Linux Home Lab" entry:"1618397104" modified:"1618397336" project:"Linux" status:"pending" tags:"Personal" uuid:"3b944128-b196-404b-bb5d-87a5832f385f"]
+new [annotation_1618397336:"Helps with understanding Sysadmin concepts" description:"Linux.Home_Lab" entry:"1618397104" modified:"1619607121" status:"pending" tags:"Personal" uuid:"3b944128-b196-404b-bb5d-87a5832f385f"]
+---
+time 1619607242
+old [annotation_1618397336:"Helps with understanding Sysadmin concepts" description:"Linux.Home_Lab" entry:"1618397104" modified:"1619607121" status:"pending" tags:"Personal" uuid:"3b944128-b196-404b-bb5d-87a5832f385f"]
+new [annotation_1618397336:"Helps with understanding Sysadmin concepts" description:"Linux.Home_Lab" entry:"1618397104" modified:"1619607242" project:"Linux.Home_Lab" status:"pending" tags:"Personal" uuid:"3b944128-b196-404b-bb5d-87a5832f385f"]
+---
+time 1619607324
+old [description:"Watch a video on Vim Script" entry:"1619370223" modified:"1619370242" priority:"M" project:"Vim.Vim_Script" status:"pending" tags:"Personal" uuid:"daaac700-8f0e-4499-87ff-9568528341df"]
+new [description:"Watch a video on Vim Script" end:"1619607324" entry:"1619370223" modified:"1619607324" priority:"M" project:"Vim.Vim_Script" status:"completed" tags:"Personal" uuid:"daaac700-8f0e-4499-87ff-9568528341df"]
+---
+time 1619607365
+old [description:"Learn More TMUX" entry:"1616273900" modified:"1619162717" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+new [annotation_1619607343:"Might not need to do as much learning as I initially thought." description:"Learn More TMUX" entry:"1616273900" modified:"1619607365" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+---
+time 1619607404
+old [annotation_1619607343:"Might not need to do as much learning as I initially thought." description:"Learn More TMUX" entry:"1616273900" modified:"1619607365" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+new [annotation_1619607343:"Might not need to do as much learning as I initially thought." annotation_1619607404:"Vim Can handle a lot of what TMUX does." description:"Learn More TMUX" entry:"1616273900" modified:"1619607404" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+---
+time 1619607444
+old [annotation_1619607343:"Might not need to do as much learning as I initially thought." annotation_1619607404:"Vim Can handle a lot of what TMUX does." description:"Learn More TMUX" entry:"1616273900" modified:"1619607404" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+new [annotation_1619607343:"Might not need to do as much learning as I initially thought." annotation_1619607404:"Vim Can handle a lot of what TMUX does." annotation_1619607444:"Use it for things like SSH though." description:"Learn More TMUX" entry:"1616273900" modified:"1619607444" project:"TMUX" status:"pending" tags:"Personal" uuid:"3e3b9b32-d4c7-4c91-9079-3dbc14c87f86"]
+---
+time 1619607620
+new [description:"test context:Coding" entry:"1619607620" modified:"1619607620" status:"pending" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619608469
+old [description:"test context:Coding" entry:"1619607620" modified:"1619607620" status:"pending" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [description:"test context:Coding" entry:"1619607620" modified:"1619608469" status:"pending" tags:"Coding_Projects" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619608496
+old [description:"test context:Coding" entry:"1619607620" modified:"1619608469" status:"pending" tags:"Coding_Projects" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [description:"test context:Coding" entry:"1619607620" modified:"1619608496" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619608631
+old [description:"test context:Coding" entry:"1619607620" modified:"1619608496" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [description:"This is an example. Lets see if anything happens" entry:"1619607620" modified:"1619608631" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619609485
+old [description:"This is an example. Lets see if anything happens" entry:"1619607620" modified:"1619608631" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Super awesome" entry:"1619607620" modified:"1619609485" priority:"X" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619609819
+old [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Super awesome" entry:"1619607620" modified:"1619609485" priority:"X" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Add Color to Terminal Outputs" entry:"1619607620" modified:"1619609819" priority:"X" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619609907
+new [description:"Typer: Basic Python Scripting. Potential Auto-Tab" entry:"1619609907" modified:"1619609907" project:"Tracker" status:"pending" tags:"Tracker" uuid:"b42e8864-1894-43d6-b77a-73fdba7e8bb7"]
+---
+time 1619609925
+old [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Add Color to Terminal Outputs" entry:"1619607620" modified:"1619609819" priority:"X" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Add Color to Terminal Outputs" entry:"1619607620" modified:"1619609925" priority:"X" project:"Tracker" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619609944
+old [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: Add Color to Terminal Outputs" entry:"1619607620" modified:"1619609925" priority:"X" project:"Tracker" status:"pending" tags:"Tracker.Color" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"mod" entry:"1619607620" modified:"1619609944" priority:"X" project:"Tracker.Color" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619610031
+old [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"mod" entry:"1619607620" modified:"1619609944" priority:"X" project:"Tracker.Color" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+new [annotation_1619609421:"At the very least you could use it for pretty Errors" description:"Rich Library: A good library for adding color to the terminal." entry:"1619607620" modified:"1619610031" priority:"X" project:"Tracker.Color" status:"pending" tags:"Tracker" uuid:"8f7b12c0-46b1-4f4a-b152-437a8f4c744f"]
+---
+time 1619610128
+old [description:"Typer: Basic Python Scripting. Potential Auto-Tab" entry:"1619609907" modified:"1619609907" project:"Tracker" status:"pending" tags:"Tracker" uuid:"b42e8864-1894-43d6-b77a-73fdba7e8bb7"]
+new [description:"Typer Library: Basic Python Scripting. Potential Auto-Tab" entry:"1619609907" modified:"1619610128" project:"Tracker" status:"pending" tags:"Tracker" uuid:"b42e8864-1894-43d6-b77a-73fdba7e8bb7"]
+---
+time 1619610205
+new [description:"Incorporate CLASSES into the project" entry:"1619610205" modified:"1619610205" project:"Tracker.Classes" status:"pending" tags:"Tracker" uuid:"19840268-53aa-49cf-8d83-c17fc224520c"]
+---
+time 1619610218
+old [description:"Incorporate CLASSES into the project" entry:"1619610205" modified:"1619610205" project:"Tracker.Classes" status:"pending" tags:"Tracker" uuid:"19840268-53aa-49cf-8d83-c17fc224520c"]
+new [description:"Incorporate CLASSES into the project" entry:"1619610205" modified:"1619610218" priority:"M" project:"Tracker.Classes" status:"pending" tags:"Tracker" uuid:"19840268-53aa-49cf-8d83-c17fc224520c"]
+---
+time 1619610699
+old [description:"Javascript" due:"1619233200" entry:"1619164175" mask:"+-++--" modified:"1619606824" project:"Javascript" recur:"daily" status:"recurring" tags:"Daily" uuid:"711c453f-f1bb-4d98-9126-4ef90172630d"]
+new [description:"Javascript" due:"1619233200" entry:"1619164175" mask:"+-+++-" modified:"1619610699" project:"Javascript" recur:"daily" status:"recurring" tags:"Daily" uuid:"711c453f-f1bb-4d98-9126-4ef90172630d"]
+---
+time 1619610699
+old [description:"Javascript" due:"1619578800" entry:"1619492520" imask:"4.000000" modified:"1619430364" parent:"711c453f-f1bb-4d98-9126-4ef90172630d" project:"Javascript" recur:"daily" status:"pending" tags:"Daily" uuid:"b1623ed7-68e1-40d8-be7f-af9795a48fc2"]
+new [description:"Javascript" due:"1619578800" end:"1619610699" entry:"1619492520" imask:"4.000000" modified:"1619610699" parent:"711c453f-f1bb-4d98-9126-4ef90172630d" project:"Javascript" recur:"daily" status:"completed" tags:"Daily" uuid:"b1623ed7-68e1-40d8-be7f-af9795a48fc2"]
+---
