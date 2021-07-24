@@ -38,13 +38,13 @@ context.Coding_Projects=+Tracker
 
 #####################Custom Modifications#######################
 
-# School Reports
+# Work Reports
 
-report.School.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.School.description=All Tasks Related To School
-report.School.filter=status:pending and tags:School
-report.School.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.School.sort=due+,urgency-,project+ 
+report.Work.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
+report.Work.description=All Tasks Related To Work
+report.Work.filter=status:pending and tags:Work
+report.Work.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
+report.Work.sort=due+,urgency-,project+ 
 
 # Daily Schedule
 
@@ -137,5 +137,4 @@ taskd.key=~/.config/task/.task/freecinc_a652c78c.key.pem
 taskd.certificate=~/.config/task/.task/freecinc_a652c78c.cert.pem
 taskd.ca=~/.config/task/.task/freecinc_a652c78c.ca.pem
 taskd.credentials=FreeCinc\/freecinc_a652c78c\/06d35d56-9f92-42fe-9c11-32e4bf47686d
-
 
