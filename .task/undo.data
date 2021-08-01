@@ -29922,3 +29922,246 @@ time 1627805229
 old [description:"Look into os and pathlib for moving around in the terminal" entry:"1620257029" modified:"1627103532" priority:"L" project:"Python.Terminal" status:"pending" tags:"Personal" uuid:"6a4bc2d7-989f-4962-952f-d4d9215ff3df"]
 new [description:"Look into os and pathlib for moving around in the terminal" entry:"1620257029" modified:"1627805229" priority:"L" project:"Python.Terminal" status:"pending" tags:"Coding" uuid:"6a4bc2d7-989f-4962-952f-d4d9215ff3df"]
 ---
+time 1627806933
+new [description:"Sleek Wood Desk" entry:"1627806933" modified:"1627806933" project:"Desk" status:"pending" tags:"Wishlist" uuid:"9a9fe053-74a1-4211-ba2c-32da7be22528"]
+---
+time 1627806957
+new [description:"Leather Pen Holder. One Pen" entry:"1627806957" modified:"1627806957" project:"Pens" status:"pending" tags:"Wishlist" uuid:"f13fa68b-dbc1-40f1-9e33-110a7d9fe3ac"]
+---
+time 1627806981
+old [description:"Another Monitor" entry:"1627804348" modified:"1627804348" project:"Monitor" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+new [description:"Another Monitor" entry:"1627804348" modified:"1627806981" priority:"H" project:"Monitor" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+---
+time 1627807400
+new [description:"Test" entry:"1627807400" modified:"1627807400" project:"Test" status:"pending" tags:"Work" uuid:"8e6c780d-16b5-4c67-908c-cda22b8d9940"]
+---
+time 1627807511
+old [description:"Test" entry:"1627807400" modified:"1627807400" project:"Test" status:"pending" tags:"Work" uuid:"8e6c780d-16b5-4c67-908c-cda22b8d9940"]
+new [description:"Test" end:"1627807511" entry:"1627807400" modified:"1627807511" project:"Test" status:"completed" tags:"Work" uuid:"8e6c780d-16b5-4c67-908c-cda22b8d9940"]
+---
+time 1627807659
+old [description:"Another Monitor" entry:"1627804348" modified:"1627806981" priority:"H" project:"Monitor" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+new [description:"Another Monitor" entry:"1627804348" modified:"1627807659" priority:"H" project:"WL.Monitor" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+---
+time 1627807691
+old [description:"More Sturdy Keyboard" entry:"1627804407" modified:"1627804407" project:"Keyboard" status:"pending" tags:"Wishlist" uuid:"166550ec-8b99-4447-bbe8-a777ee5e33f6"]
+new [description:"More Sturdy Keyboard" entry:"1627804407" modified:"1627807691" project:"WL.Keyboard" status:"pending" tags:"Wishlist" uuid:"166550ec-8b99-4447-bbe8-a777ee5e33f6"]
+---
+time 1627807709
+old [description:"Sleek Wood Desk" entry:"1627806933" modified:"1627806933" project:"Desk" status:"pending" tags:"Wishlist" uuid:"9a9fe053-74a1-4211-ba2c-32da7be22528"]
+new [description:"Sleek Wood Desk" entry:"1627806933" modified:"1627807709" project:"WL.Desk" status:"pending" tags:"Wishlist" uuid:"9a9fe053-74a1-4211-ba2c-32da7be22528"]
+---
+time 1627807715
+old [description:"Leather Pen Holder. One Pen" entry:"1627806957" modified:"1627806957" project:"Pens" status:"pending" tags:"Wishlist" uuid:"f13fa68b-dbc1-40f1-9e33-110a7d9fe3ac"]
+new [description:"Leather Pen Holder. One Pen" entry:"1627806957" modified:"1627807715" project:"WL.Pens" status:"pending" tags:"Wishlist" uuid:"f13fa68b-dbc1-40f1-9e33-110a7d9fe3ac"]
+---
+time 1627807790
+old [description:"Another Monitor" entry:"1627804348" modified:"1627807659" priority:"H" project:"WL.Monitor" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+new [description:"Another Monitor" entry:"1627804348" modified:"1627807790" priority:"H" status:"pending" tags:"Wishlist" uuid:"67c179d7-7aed-4c1a-abc9-16a68ea0d753"]
+---
+time 1627807800
+old [description:"More Sturdy Keyboard" entry:"1627804407" modified:"1627807691" project:"WL.Keyboard" status:"pending" tags:"Wishlist" uuid:"166550ec-8b99-4447-bbe8-a777ee5e33f6"]
+new [description:"More Sturdy Keyboard" entry:"1627804407" modified:"1627807800" status:"pending" tags:"Wishlist" uuid:"166550ec-8b99-4447-bbe8-a777ee5e33f6"]
+---
+time 1627807805
+old [description:"Sleek Wood Desk" entry:"1627806933" modified:"1627807709" project:"WL.Desk" status:"pending" tags:"Wishlist" uuid:"9a9fe053-74a1-4211-ba2c-32da7be22528"]
+new [description:"Sleek Wood Desk" entry:"1627806933" modified:"1627807805" status:"pending" tags:"Wishlist" uuid:"9a9fe053-74a1-4211-ba2c-32da7be22528"]
+---
+time 1627807812
+old [description:"Leather Pen Holder. One Pen" entry:"1627806957" modified:"1627807715" project:"WL.Pens" status:"pending" tags:"Wishlist" uuid:"f13fa68b-dbc1-40f1-9e33-110a7d9fe3ac"]
+new [description:"Leather Pen Holder. One Pen" entry:"1627806957" modified:"1627807812" status:"pending" tags:"Wishlist" uuid:"f13fa68b-dbc1-40f1-9e33-110a7d9fe3ac"]
+---
+time 1627807870
+old [description:"Wash Clothes and Blanket" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627801814" parent:"0872f620-183b-4235-a35d-873bc433dcdc" priority:"L" project:"Cleaning" recur:"weekly" status:"pending" tags:"Daily" uuid:"b88b825d-a4fc-4f60-bb52-0e18c25aa832"]
+new [description:"Wash Clothes and Blanket" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627807870" parent:"0872f620-183b-4235-a35d-873bc433dcdc" priority:"L" recur:"weekly" status:"pending" tags:"Daily" uuid:"b88b825d-a4fc-4f60-bb52-0e18c25aa832"]
+---
+time 1627807874
+old [description:"Brush Teeth" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627801796" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"4110c3bf-563a-4781-aeee-bd03a276ee11"]
+new [description:"Brush Teeth" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807874" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" recur:"daily" status:"pending" tags:"Daily" uuid:"4110c3bf-563a-4781-aeee-bd03a276ee11"]
+---
+time 1627807933
+old [description:"Clean Your Bathroom" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627801783" parent:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3" priority:"H" project:"Cleaning" recur:"weekly" status:"pending" tags:"Daily" uuid:"9ee789ec-1156-45c5-b6b0-3efdffe16615"]
+new [description:"Clean Your Bathroom" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627807933" parent:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3" priority:"H" recur:"weekly" status:"pending" tags:"Daily" uuid:"9ee789ec-1156-45c5-b6b0-3efdffe16615"]
+---
+time 1627807937
+old [description:"Take Out Trash" due:"1627794000" entry:"1627710595" imask:"8" modified:"1627801879" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"7acf08a2-3184-443d-8b84-2d72965e776f"]
+new [description:"Take Out Trash" due:"1627794000" entry:"1627710595" imask:"8" modified:"1627807937" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" recur:"daily" status:"pending" tags:"Daily" uuid:"7acf08a2-3184-443d-8b84-2d72965e776f"]
+---
+time 1627807942
+old [description:"Java" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627678717" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"f42086a0-599c-48df-a3cf-101e97a5a519"]
+new [description:"Java" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807942" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" recur:"daily" status:"pending" tags:"Daily" uuid:"f42086a0-599c-48df-a3cf-101e97a5a519"]
+---
+time 1627807945
+old [description:"Python" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627686791" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"2e922c3c-8260-4b22-afea-580c21eaf2bf"]
+new [description:"Python" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807945" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" recur:"daily" status:"pending" tags:"Daily" uuid:"2e922c3c-8260-4b22-afea-580c21eaf2bf"]
+---
+time 1627807950
+old [description:"SQL" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627694786" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"eeff2b81-bed2-47d4-92ca-8738df2f6348"]
+new [description:"SQL" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807950" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" recur:"daily" status:"pending" tags:"Daily" uuid:"eeff2b81-bed2-47d4-92ca-8738df2f6348"]
+---
+time 1627808015
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155167" imask:"0.000000" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"a18aade2-530d-49d9-8360-d262e742ef7f"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155167" imask:"0.000000" modified:"1627808015" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" recur:"daily" status:"pending" tags:"Daily" uuid:"a18aade2-530d-49d9-8360-d262e742ef7f"]
+---
+time 1627808019
+old [description:"Brush Teeth" due:"1627707600" entry:"1627678717" imask:"2" modified:"1627801797" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"bd3d65a1-874c-45c9-aef8-db81aa6274a5"]
+new [description:"Brush Teeth" due:"1627707600" entry:"1627678717" imask:"2" modified:"1627808019" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" recur:"daily" status:"pending" tags:"Daily" uuid:"bd3d65a1-874c-45c9-aef8-db81aa6274a5"]
+---
+time 1627808024
+old [description:"Brush Teeth" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627801797" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"8807f785-f8a1-4dda-a3b2-481258df10f3"]
+new [description:"Brush Teeth" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627808024" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" recur:"daily" status:"pending" tags:"Daily" uuid:"8807f785-f8a1-4dda-a3b2-481258df10f3"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+--------" modified:"1627801881" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++-------" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627275600" entry:"1627197500" imask:"2.000000" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"71c4ae28-f42a-4f38-8e33-bc94be9f8620"]
+new [description:"Take Out Trash" due:"1627275600" end:"1627808086" entry:"1627197500" imask:"2.000000" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"71c4ae28-f42a-4f38-8e33-bc94be9f8620"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++-------" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+++------" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627362000" entry:"1627309308" imask:"3.000000" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"823a92d4-5526-4c96-8f67-448e35ff5601"]
+new [description:"Take Out Trash" due:"1627362000" end:"1627808088" entry:"1627309308" imask:"3.000000" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"823a92d4-5526-4c96-8f67-448e35ff5601"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+++------" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++++-----" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627448400" entry:"1627408187" imask:"4.000000" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"46b826ed-e8b7-4f0d-bf74-2c35097f0ab8"]
+new [description:"Take Out Trash" due:"1627448400" end:"1627808088" entry:"1627408187" imask:"4.000000" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"46b826ed-e8b7-4f0d-bf74-2c35097f0ab8"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++++-----" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+++++----" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627534800" entry:"1627521860" imask:"5" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"27d21a5e-22cf-4fc2-9aef-51ce6b65ab96"]
+new [description:"Take Out Trash" due:"1627534800" end:"1627808088" entry:"1627521860" imask:"5" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"27d21a5e-22cf-4fc2-9aef-51ce6b65ab96"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+++++----" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++++++---" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627621200" entry:"1627567798" imask:"6" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"5ff7bd4c-026c-4d57-b5ac-2cd41dcc0976"]
+new [description:"Take Out Trash" due:"1627621200" end:"1627808088" entry:"1627567798" imask:"6" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"5ff7bd4c-026c-4d57-b5ac-2cd41dcc0976"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-++++++---" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+new [description:"Take Out Trash" due:"1627102800" entry:"1627155166" mask:"-+++++++--" modified:"1627808088" priority:"L" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"a95fdf31-4496-4f24-a167-de73b134fecf"]
+---
+time 1627808088
+old [description:"Take Out Trash" due:"1627707600" entry:"1627678717" imask:"7" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"abb27b3a-d732-494d-8643-67ab0996cf4f"]
+new [description:"Take Out Trash" due:"1627707600" end:"1627808088" entry:"1627678717" imask:"7" modified:"1627808088" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"completed" tags:"Daily" uuid:"abb27b3a-d732-494d-8643-67ab0996cf4f"]
+---
+time 1627808105
+old [description:"Take Out Trash" due:"1627880400" entry:"1627801735" imask:"9" modified:"1627801881" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" project:"Home" recur:"daily" status:"pending" tags:"Daily" uuid:"23face5b-d632-4d08-afcb-67e67b62e511"]
+new [description:"Take Out Trash" due:"1627880400" entry:"1627801735" imask:"9" modified:"1627808105" parent:"a95fdf31-4496-4f24-a167-de73b134fecf" priority:"L" recur:"daily" status:"pending" tags:"Daily" uuid:"23face5b-d632-4d08-afcb-67e67b62e511"]
+---
+time 1627808257
+old [description:"Python" due:"1627534800" entry:"1627567887" mask:"-+---" modified:"1627801735" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"9c1b413b-c5db-4a6c-a231-68dff29f26eb"]
+new [description:"Python" due:"1627534800" entry:"1627567887" mask:"X+---" modified:"1627808257" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"9c1b413b-c5db-4a6c-a231-68dff29f26eb"]
+---
+time 1627808257
+old [description:"Python" due:"1627534800" entry:"1627567889" imask:"0" modified:"1627567887" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"8bb3d65f-da73-424e-b506-fc5f15336843"]
+new [description:"Python" due:"1627534800" end:"1627808256" entry:"1627567889" imask:"0" modified:"1627808257" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"deleted" tags:"Daily" uuid:"8bb3d65f-da73-424e-b506-fc5f15336843"]
+---
+time 1627808260
+old [description:"SQL" due:"1627534800" entry:"1627567924" mask:"-+---" modified:"1627801735" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"8dad0319-6f0a-4077-9177-f546a22e8845"]
+new [description:"SQL" due:"1627534800" entry:"1627567924" mask:"X+---" modified:"1627808260" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"8dad0319-6f0a-4077-9177-f546a22e8845"]
+---
+time 1627808260
+old [description:"SQL" due:"1627534800" entry:"1627567925" imask:"0" modified:"1627567924" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"56c99d74-b846-4cdb-91e6-048ca64a4181"]
+new [description:"SQL" due:"1627534800" end:"1627808260" entry:"1627567925" imask:"0" modified:"1627808260" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"deleted" tags:"Daily" uuid:"56c99d74-b846-4cdb-91e6-048ca64a4181"]
+---
+time 1627808262
+old [description:"Java" due:"1627534800" entry:"1627567851" mask:"++---" modified:"1627801735" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62"]
+new [description:"Java" due:"1627534800" entry:"1627567851" mask:"++X--" modified:"1627808262" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62"]
+---
+time 1627808262
+old [description:"Java" due:"1627707600" entry:"1627678717" imask:"2" modified:"1627606503" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"e575ba31-f7d7-4cbe-913a-4fdabff91d6c"]
+new [description:"Java" due:"1627707600" end:"1627808262" entry:"1627678717" imask:"2" modified:"1627808262" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" project:"Study" recur:"daily" status:"deleted" tags:"Daily" uuid:"e575ba31-f7d7-4cbe-913a-4fdabff91d6c"]
+---
+time 1627808262
+old [description:"Python" due:"1627534800" entry:"1627567887" mask:"X+---" modified:"1627808257" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"9c1b413b-c5db-4a6c-a231-68dff29f26eb"]
+new [description:"Python" due:"1627534800" entry:"1627567887" mask:"X+X--" modified:"1627808262" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"9c1b413b-c5db-4a6c-a231-68dff29f26eb"]
+---
+time 1627808262
+old [description:"Python" due:"1627707600" entry:"1627678717" imask:"2" modified:"1627567889" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"dbf1d731-f19b-43e3-bc92-fc0f29c4a833"]
+new [description:"Python" due:"1627707600" end:"1627808262" entry:"1627678717" imask:"2" modified:"1627808262" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"deleted" tags:"Daily" uuid:"dbf1d731-f19b-43e3-bc92-fc0f29c4a833"]
+---
+time 1627808263
+old [description:"SQL" due:"1627534800" entry:"1627567924" mask:"X+---" modified:"1627808260" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"8dad0319-6f0a-4077-9177-f546a22e8845"]
+new [description:"SQL" due:"1627534800" entry:"1627567924" mask:"X+X--" modified:"1627808263" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"8dad0319-6f0a-4077-9177-f546a22e8845"]
+---
+time 1627808263
+old [description:"SQL" due:"1627707600" entry:"1627678717" imask:"2" modified:"1627567925" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"f7af1db6-ec78-4b35-9a45-e64e084ebab9"]
+new [description:"SQL" due:"1627707600" end:"1627808263" entry:"1627678717" imask:"2" modified:"1627808263" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"deleted" tags:"Daily" uuid:"f7af1db6-ec78-4b35-9a45-e64e084ebab9"]
+---
+time 1627808339
+old [description:"Java" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627710600" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"7d26bffb-d186-4776-a5a8-2f6eec8e4668"]
+new [description:"Java" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627808339" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" recur:"daily" status:"pending" tags:"Daily" uuid:"7d26bffb-d186-4776-a5a8-2f6eec8e4668"]
+---
+time 1627808343
+old [description:"Python" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627710595" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"bab66759-8b38-4250-a0c4-28895aab071d"]
+new [description:"Python" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627808343" parent:"9c1b413b-c5db-4a6c-a231-68dff29f26eb" recur:"daily" status:"pending" tags:"Daily" uuid:"bab66759-8b38-4250-a0c4-28895aab071d"]
+---
+time 1627808347
+old [description:"SQL" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627710595" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" project:"Study" recur:"daily" status:"pending" tags:"Daily" uuid:"8c29740b-2574-4985-a69d-ebe49f12d496"]
+new [description:"SQL" due:"1627880400" entry:"1627801735" imask:"4" modified:"1627808347" parent:"8dad0319-6f0a-4077-9177-f546a22e8845" recur:"daily" status:"pending" tags:"Daily" uuid:"8c29740b-2574-4985-a69d-ebe49f12d496"]
+---
+time 1627808415
+new [description:"Test" entry:"1627808415" modified:"1627808415" status:"pending" tags:"Wishlist.something" uuid:"fa09a2ce-7074-4484-902e-de1224cbfde4"]
+---
+time 1627808456
+old [description:"Test" entry:"1627808415" modified:"1627808415" status:"pending" tags:"Wishlist.something" uuid:"fa09a2ce-7074-4484-902e-de1224cbfde4"]
+new [description:"Test" end:"1627808455" entry:"1627808415" modified:"1627808456" status:"deleted" tags:"Wishlist.something" uuid:"fa09a2ce-7074-4484-902e-de1224cbfde4"]
+---
+time 1627808613
+old [description:"Clean Your Bathroom" due:"1616382000" end:"1627241353" entry:"1615528824" mask:"++++++--------------" modified:"1627801785" priority:"H" project:"Cleaning" recur:"weekly" status:"deleted" tags:"Daily" uuid:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3"]
+new [description:"Clean Your Bathroom" due:"1616382000" end:"1627241353" entry:"1615528824" mask:"++++++-------------+" modified:"1627808613" priority:"H" project:"Cleaning" recur:"weekly" status:"deleted" tags:"Daily" uuid:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3"]
+---
+time 1627808613
+old [description:"Clean Your Bathroom" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627807933" parent:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3" priority:"H" recur:"weekly" status:"pending" tags:"Daily" uuid:"9ee789ec-1156-45c5-b6b0-3efdffe16615"]
+new [description:"Clean Your Bathroom" due:"1627873200" end:"1627808611" entry:"1627521812" imask:"19" modified:"1627808613" parent:"8fc135fb-6cd3-4f0a-9236-3c43bbaff1f3" priority:"H" recur:"weekly" status:"completed" tags:"Daily" uuid:"9ee789ec-1156-45c5-b6b0-3efdffe16615"]
+---
+time 1627808613
+old [description:"Clean Room" due:"1627102800" entry:"1627107083" mask:"++++-++---" modified:"1627801866" priority:"H" recur:"daily" status:"recurring" tags:"Daily" uuid:"460b0974-5576-4ec7-96a0-bd36ecd2a1f5"]
+new [description:"Clean Room" due:"1627102800" entry:"1627107083" mask:"++++-++-+-" modified:"1627808613" priority:"H" recur:"daily" status:"recurring" tags:"Daily" uuid:"460b0974-5576-4ec7-96a0-bd36ecd2a1f5"]
+---
+time 1627808613
+old [description:"Clean Room" due:"1627794000" entry:"1627710595" imask:"8" modified:"1627801864" parent:"460b0974-5576-4ec7-96a0-bd36ecd2a1f5" priority:"H" recur:"daily" status:"pending" tags:"Daily" uuid:"a102eca6-560b-44ff-83bf-2797ec57eed7"]
+new [description:"Clean Room" due:"1627794000" end:"1627808613" entry:"1627710595" imask:"8" modified:"1627808613" parent:"460b0974-5576-4ec7-96a0-bd36ecd2a1f5" priority:"H" recur:"daily" status:"completed" tags:"Daily" uuid:"a102eca6-560b-44ff-83bf-2797ec57eed7"]
+---
+time 1627808613
+old [description:"Brush Teeth" due:"1627534800" entry:"1627567955" mask:"++---" modified:"1627801797" priority:"H" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"b9a731dc-a704-4800-b169-0228621f1b0e"]
+new [description:"Brush Teeth" due:"1627534800" entry:"1627567955" mask:"++-+-" modified:"1627808613" priority:"H" project:"Home" recur:"daily" status:"recurring" tags:"Daily" uuid:"b9a731dc-a704-4800-b169-0228621f1b0e"]
+---
+time 1627808613
+old [description:"Brush Teeth" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807874" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" recur:"daily" status:"pending" tags:"Daily" uuid:"4110c3bf-563a-4781-aeee-bd03a276ee11"]
+new [description:"Brush Teeth" due:"1627794000" end:"1627808613" entry:"1627710595" imask:"3" modified:"1627808613" parent:"b9a731dc-a704-4800-b169-0228621f1b0e" priority:"H" recur:"daily" status:"completed" tags:"Daily" uuid:"4110c3bf-563a-4781-aeee-bd03a276ee11"]
+---
+time 1627808624
+old [description:"Wash Clothes and Blanket" due:"1616382000" end:"1627241338" entry:"1616050583" mask:"++++++--------------" modified:"1627801816" priority:"L" project:"Cleaning" recur:"weekly" status:"deleted" tags:"Daily" uuid:"0872f620-183b-4235-a35d-873bc433dcdc"]
+new [description:"Wash Clothes and Blanket" due:"1616382000" end:"1627241338" entry:"1616050583" mask:"++++++-------------+" modified:"1627808624" priority:"L" project:"Cleaning" recur:"weekly" status:"deleted" tags:"Daily" uuid:"0872f620-183b-4235-a35d-873bc433dcdc"]
+---
+time 1627808624
+old [description:"Wash Clothes and Blanket" due:"1627873200" entry:"1627521812" imask:"19" modified:"1627807870" parent:"0872f620-183b-4235-a35d-873bc433dcdc" priority:"L" recur:"weekly" status:"pending" tags:"Daily" uuid:"b88b825d-a4fc-4f60-bb52-0e18c25aa832"]
+new [description:"Wash Clothes and Blanket" due:"1627873200" end:"1627808624" entry:"1627521812" imask:"19" modified:"1627808624" parent:"0872f620-183b-4235-a35d-873bc433dcdc" priority:"L" recur:"weekly" status:"completed" tags:"Daily" uuid:"b88b825d-a4fc-4f60-bb52-0e18c25aa832"]
+---
+time 1627818509
+old [description:"Java" due:"1627534800" entry:"1627567851" mask:"++X--" modified:"1627808262" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62"]
+new [description:"Java" due:"1627534800" entry:"1627567851" mask:"++X+-" modified:"1627818509" project:"Study" recur:"daily" status:"recurring" tags:"Daily" uuid:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62"]
+---
+time 1627818509
+old [description:"Java" due:"1627794000" entry:"1627710595" imask:"3" modified:"1627807942" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" recur:"daily" status:"pending" tags:"Daily" uuid:"f42086a0-599c-48df-a3cf-101e97a5a519"]
+new [description:"Java" due:"1627794000" end:"1627818509" entry:"1627710595" imask:"3" modified:"1627818509" parent:"2b5c8d0b-22fc-4a01-855d-dd6f21afdb62" recur:"daily" status:"completed" tags:"Daily" uuid:"f42086a0-599c-48df-a3cf-101e97a5a519"]
+---
+time 1627819750
+new [description:"Bigger Mouse Pad" entry:"1627819750" modified:"1627819750" status:"pending" tags:"Wishlist" uuid:"6bb02f47-e8c9-4613-85b7-ea730d67c56a"]
+---
