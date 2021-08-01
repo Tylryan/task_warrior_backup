@@ -1,1 +1,3 @@
-3cd447f7-c01f-4160-bf96-162612ddac09
+b7e9c199-3565-4c05-a204-5cdcf55b99af
+{"description":"Python Decorators","entry":"20210423T074520Z","modified":"20210801T080651Z","project":"Python.Decorators","status":"pending","tags":["Coding"],"uuid":"444df070-c570-4326-938b-bec9c02dc31c","annotations":[{"entry":"20210423T074542Z","description":"See if they are useful for the Tracker project"}]}
+{"description":"Look into os and pathlib for moving around in the terminal","entry":"20210505T232349Z","modified":"20210801T080709Z","priority":"L","project":"Python.Terminal","status":"pending","tags":["Coding"],"uuid":"6a4bc2d7-989f-4962-952f-d4d9215ff3df"}

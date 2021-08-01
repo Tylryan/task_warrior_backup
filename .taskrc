@@ -14,29 +14,27 @@
 # data.location=~/.config/task/.task
 # rc:data.location=~/.config/task/.taskrc
 
-# Color theme (uncomment one to use)
-#include /usr/share/doc/task/rc/light-16.theme
-#include /usr/share/doc/task/rc/light-256.theme
-#include /usr/share/doc/task/rc/dark-16.theme
-#include /usr/share/doc/task/rc/dark-256.theme
-#include /usr/share/doc/task/rc/dark-red-256.theme
-#include /usr/share/doc/task/rc/dark-green-256.theme
-#include /usr/share/doc/task/rc/dark-blue-256.theme
-#include /usr/share/doc/task/rc/dark-violets-256.theme
-#include /usr/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/share/doc/task/rc/dark-gray-256.theme
-#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/share/doc/task/rc/solarized-light-256.theme
-#include /usr/share/doc/task/rc/no-color.theme
 
 
-############################# OTHER ################################################
+############################## OTHER ##########################################
+## Setting my default editor to Vim
 editor=nvim	
 
+# Example of how to set contexts
 context.Coding_Projects=+Tracker
 
-#####################Custom Modifications#######################
+# Removing the annoying TASKRC override warnings.
+verbose=blank,footnote,label,new-id,affected,edit,special,project,sync,unwait
+
+############################ Report Example ###################################
+color.tag.next=rgb440
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.next.description=Most Urgent Tasks
+report.next.filter=(status:pending and !(tags:Daily)) limit:5
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.next.sort=urgency-
+
+########################### Custom Reports ####################################
 
 # Work Reports
 
@@ -49,19 +47,12 @@ report.Work.sort=due+,urgency-,project+
 # Daily Schedule
 
 report.Daily.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Daily.description=All Recurring Daily Chore Like Tasks
+report.Daily.description=All Recurring Daily Chore-like Tasks
 report.Daily.filter=status:pending and tags:Daily limit:20 due:today
 report.Daily.labels=ID,Active,Age,D,P,Project,R,Sch,Until,Description,Urg,Due
 report.Daily.sort=urgency-,project+,start-
 # Standard Task task that doesn't show "DAILY".
 
-color.tag.next=rgb440
-report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
-report.next.description=Most Urgent Tasks
-report.next.filter=(status:pending and !(tags:Daily)) limit:5
-report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
-report.next.sort=urgency-
-## Setting my default editor to Vim
 
 # Personal Tasks
 report.Personal.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,due,until.remaining,description.count,urgency
@@ -89,19 +80,18 @@ report.Overdue.sort=urgency-,due+
 
 report.Coding.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
 report.Coding.description=All Tasks Related to Personal Coding Projects
-report.Coding.filter=tags:Tracker limit:5
+report.Coding.filter=status:pending and tags:Coding
 report.Coding.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.Coding.sort=priority-,urgency-,project+ 
+report.Coding.sort=project+,priority-,urgency-
 
-# List all Tasks By Project
-report.Projects.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Projects.description=All Current Tasks By Project
-report.Projects.filter=status:pending and recur=false
-report.Projects.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.Projects.sort=project-,due+,urgency-
-# Removing the annoying TASKRC override warnings.
-verbose=blank,footnote,label,new-id,affected,edit,special,project,sync,unwait
-############################## UDA #################################################
+# A list of shit I want
+report.Wishlist.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
+report.Wishlist.description=Shit I Want
+report.Wishlist.filter=tags:Wishlist
+report.Wishlist.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
+report.Wishlist.sort=project+,due+,urgency-
+
+############################## UDA ############################################
 
 # This increases the value of older entries.
 urgency.age.coefficient=5.0
@@ -117,7 +107,7 @@ urgency.uda.priority.X.coefficient=12 # Highest Priority
 uda.priority.values=X,H,M,L,
 
 
-############################## COLOR ##############################################
+############################## COLOR ##########################################
 # A Note on color. Black on black means Darkmode version of black
 # White on black means Normal Mode version of black.
 # If you terminal is in dark mode, use "Black on ..."
@@ -129,7 +119,23 @@ color.summary.bar=on color14
 color.summary.background=on color0
 color.alternate=on gray5
 
-############################## SYNCING ################################################
+# Color theme (uncomment one to use)
+#include /usr/share/doc/task/rc/light-16.theme
+#include /usr/share/doc/task/rc/light-256.theme
+#include /usr/share/doc/task/rc/dark-16.theme
+#include /usr/share/doc/task/rc/dark-256.theme
+#include /usr/share/doc/task/rc/dark-red-256.theme
+#include /usr/share/doc/task/rc/dark-green-256.theme
+#include /usr/share/doc/task/rc/dark-blue-256.theme
+#include /usr/share/doc/task/rc/dark-violets-256.theme
+#include /usr/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/share/doc/task/rc/dark-gray-256.theme
+#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
+#include /usr/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/share/doc/task/rc/solarized-light-256.theme
+#include /usr/share/doc/task/rc/no-color.theme
+
+############################## SYNCING ########################################
 
 # This is server information used to syn my devices.
 taskd.server=freecinc.com:53589
