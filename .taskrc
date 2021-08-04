@@ -39,7 +39,7 @@ report.next.sort=urgency-
 # Work Reports
 
 report.Work.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Work.description=All Tasks Related To Work
+report.Work.description=Tasks Related To Work
 report.Work.filter=status:pending and tags:Work
 report.Work.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
 report.Work.sort=due+,urgency-,project+ 
@@ -47,7 +47,7 @@ report.Work.sort=due+,urgency-,project+
 # Daily Schedule
 
 report.Daily.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Daily.description=All Recurring Daily Chore-like Tasks
+report.Daily.description=Recurring Daily Chore-like Tasks
 report.Daily.filter=status:pending and tags:Daily limit:20 due:today
 report.Daily.labels=ID,Active,Age,D,P,Project,R,Sch,Until,Description,Urg,Due
 report.Daily.sort=urgency-,project+,start-
@@ -63,14 +63,14 @@ report.Personal.sort=urgency-,priority-,project+
 
 # Deleted Tasks
 report.Deleted.columns=uuid,entry.age,project,recur.indicator,description.count
-report.Deleted.description=All Deleted Tasks
+report.Deleted.description=ALL Deleted Tasks
 report.Deleted.filter=status:deleted
 report.Deleted.labels=UUID,Age,Project,R,Description
 report.Deleted.sort=uuid-
 
 # Tasks Due Yesterday
 report.Overdue.columns=id,start.age,entry.age,depends,priority,project,tags,recur.indicator,scheduled.countdown,due,until,description,urgency
-report.Overdue.description=Tasks That Are Overdue By One Day
+report.Overdue.description=Tasks Due Yesterday
 report.Overdue.filter=(status:pending or status:waiting) and +OVERDUE and due:yesterday                                                                       
 report.Overdue.labels=ID,Active,Age,Deps,P,Project,Tag,R,S,Due,Until,Description,Urg
 report.Overdue.sort=urgency-,due+
@@ -79,7 +79,7 @@ report.Overdue.sort=urgency-,due+
 # Coding Projects I Got Going On
 
 report.Coding.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Coding.description=All Tasks Related to Personal Coding Projects
+report.Coding.description=Tasks Related To Coding
 report.Coding.filter=status:pending and tags:Coding
 report.Coding.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
 report.Coding.sort=project+,priority-,urgency-
