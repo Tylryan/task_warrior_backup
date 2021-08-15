@@ -50,7 +50,8 @@ report.Daily.columns=id,start.age,entry.age,depends.indicator,priority,project,r
 report.Daily.description=Recurring Daily Chore-like Tasks
 report.Daily.filter=status:pending and tags:Daily limit:20 due:today
 report.Daily.labels=ID,Active,Age,D,P,Project,R,Sch,Until,Description,Urg,Due
-report.Daily.sort=urgency-,project+,start-
+#report.Daily.sort=urgency-,project+,start-
+report.Daily.sort=description+
 # Standard Task task that doesn't show "DAILY".
 
 
