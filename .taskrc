@@ -81,14 +81,14 @@ report.Overdue.sort=urgency-,due+
 
 report.Coding.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
 report.Coding.description=Tasks Related To Coding
-report.Coding.filter=status:pending and tags:Coding
+report.Coding.filter=(status:pending or status:waiting) and tags:Coding
 report.Coding.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
 report.Coding.sort=project+,priority-,urgency-
 
 # A list of shit I want
 report.Wishlist.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
 report.Wishlist.description=Shit I Want
-report.Wishlist.filter=tags:Wishlist
+report.Wishlist.filter=(status:pending or status:waiting) and tags:Wishlist
 report.Wishlist.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
 report.Wishlist.sort=project+,due+,urgency-
 
@@ -140,8 +140,7 @@ color.alternate=on gray5
 
 # This is server information used to syn my devices.
 taskd.server=freecinc.com:53589
-taskd.key=~/.config/task/.task/freecinc_a652c78c.key.pem
-taskd.certificate=~/.config/task/.task/freecinc_a652c78c.cert.pem
-taskd.ca=~/.config/task/.task/freecinc_a652c78c.ca.pem
-taskd.credentials=FreeCinc\/freecinc_a652c78c\/06d35d56-9f92-42fe-9c11-32e4bf47686d
-
+taskd.key=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.key.pem
+taskd.certificate=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.cert.pem
+taskd.ca=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.ca.pem
+taskd.credentials=FreeCinc\/freecinc_3a250e28\/ba7c312a-0b3d-4659-a2f4-7085d0e015c9
