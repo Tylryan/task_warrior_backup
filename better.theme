@@ -1,13 +1,17 @@
 include no-color.theme
+
+# Setting a bug to be of higher precedence than the rest of the udas. This makes sure that it's color will be applied
+rule.precedence.color = deleted,completed,active,keyword.,tag.,project.,overdue,scheduled,due.today,due,blocked,blocking,recurring,tagged,uda.type.bug,uda.
+
+color.uda.type.bug  = on rgb100
+color.uda.priority.M = on gray0
+color.uda.priority.L = on gray1
+
 color.uda.effort.XS = bold rgb135
 color.uda.effort.S  = bold rgb413
 color.uda.effort.M  = rgb131
 color.uda.effort.L  = rgb333
 color.uda.effort.XL = rgb222
-color.uda.type.bug  = on rgb100
-
-color.uda.priority.M = on gray0
-color.uda.priority.L = on gray1
 
 color.summary.bar = on rgb040
 color.summary.background = on gray

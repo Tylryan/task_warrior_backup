@@ -28,15 +28,16 @@ confirmation=no
 
 verbose=yes
 
-#include no-color.theme
-# Theming
-include ./better.theme
 # Custom Types
 include ./types
 # Coefficients
 include ./coefficients
+# Theming
+include ./better.theme
 # Reports
 include ./reports
+
+rule.precedence.color = deleted,completed,active,keyword.,tag.,project.,overdue,scheduled,due.today,due,blocked,blocking,recurring,tagged,uda.type.bug,uda.
 
 # Contexts (auto generated)
 context.huske.read=+huske
