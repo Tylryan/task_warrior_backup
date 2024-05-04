@@ -1,0 +1,20 @@
+include no-color.theme
+color.uda.effort.XS = bold rgb135
+color.uda.effort.S  = bold rgb413
+color.uda.effort.M  = rgb131
+color.uda.effort.L  = rgb333
+color.uda.effort.XL = rgb222
+color.uda.type.bug  = on rgb100
+
+color.uda.priority.M = on gray0
+color.uda.priority.L = on gray1
+
+color.summary.bar = on rgb040
+color.summary.background = on gray
+color.burndown.done = on rgb040
+color.burndown.started = on rgb004
+color.burndown.pending = on rgb400
+color.history.add = bold white on rgb004
+color.history.done = bold white on rgb030
+color.history.delete = bold white on rgb400
+color.warning = rgb331

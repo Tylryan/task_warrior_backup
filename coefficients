@@ -1,0 +1,10 @@
+
+urgency.annotations.coefficient = 0
+urgency.uda.effort.XS.coefficient = 2.6
+urgency.uda.effort.S.coefficient  = 2.3
+urgency.uda.effort.M.coefficient  = 2.0
+urgency.uda.effort.L.coefficient  = 1.6
+urgency.uda.effort.XL.coefficient = 1.2
+
+urgency.uda.type.feature.coefficient = 1.0
+urgency.uda.type.bug.coefficient     = 2.8

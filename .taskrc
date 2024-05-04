@@ -1,6 +1,6 @@
-# [Created by task 2.5.3 3/1/2021 14:31:24]
+# [Created by task 2.6.2 4/29/2024 21:46:31]
 # Taskwarrior program configuration file.
-# For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
+# For more documentation, see https://taskwarrior.org or try 'man task', 'man task-color',
 # 'man task-sync' or 'man taskrc'
 
 # Here is an example of entries that use the default, override and blank values
@@ -8,139 +8,42 @@
 #   variable=      -- By specifying no value, this means no default
 #   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
 
+# You can also refence environment variables:
+#   variable=$HOME/task
+#   variable=$VALUE
+
 # Use the command 'task show' to see all defaults and overrides
 
-# Files : I just used $TASKRC and $TASKDATA environment variables in .bashrc
-# data.location=~/.config/task/.task
-# rc:data.location=~/.config/task/.taskrc
+# Files
+data.location=/home/tyler/.config/task/.task
 
+# To use the default location of the XDG directories,
+# move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
 
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
 
-############################## OTHER ##########################################
-## Setting my default editor to Vim
-editor=nvim	
+# Stop bothering me
+confirmation=no
 
-# Example of how to set contexts
-context.Coding_Projects=+Tracker
+verbose=yes
 
-# Removing the annoying TASKRC override warnings.
-verbose=blank,footnote,label,new-id,affected,edit,special,project,sync,unwait
+#include no-color.theme
+# Theming
+include ./better.theme
+# Custom Types
+include ./types
+# Coefficients
+include ./coefficients
+# Reports
+include ./reports
 
-############################ Report Example ###################################
-color.tag.next=rgb440
-report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
-report.next.description=Most Urgent Tasks
-report.next.filter=(status:pending and !(tags:Daily)) limit:5
-report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
-report.next.sort=urgency-
-
-########################### Custom Reports ####################################
-
-# Work Reports
-
-report.Work.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Work.description=Tasks Related To Work
-report.Work.filter=status:pending and tags:Work
-report.Work.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.Work.sort=due+,urgency-,project+ 
-
-# Daily Schedule
-
-report.Daily.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Daily.description=Recurring Daily Chore-like Tasks
-report.Daily.filter=status:pending and tags:Daily limit:20 due:today
-report.Daily.labels=ID,Active,Age,D,P,Project,R,Sch,Until,Description,Urg,Due
-#report.Daily.sort=urgency-,project+,start-
-report.Daily.sort=description+
-# Standard Task task that doesn't show "DAILY".
-
-
-# Personal Tasks
-report.Personal.columns=id,start.age,entry.age,depends.indicator,priority,project,recur.indicator,scheduled.countdown,due,until.remaining,description.count,urgency
-report.Personal.description=Non-Repetitive Tasks You Want To Eventually Get To
-report.Personal.filter=status:pending and tags:Personal limit:20
-report.Personal.labels=ID,Active,Age,D,P,Project,R,Sch,Due,Until,Description,Urg
-report.Personal.sort=urgency-,priority-,project+
-
-# Deleted Tasks
-report.Deleted.columns=uuid,entry.age,project,recur.indicator,description.count
-report.Deleted.description=ALL Deleted Tasks
-report.Deleted.filter=status:deleted
-report.Deleted.labels=UUID,Age,Project,R,Description
-report.Deleted.sort=uuid-
-
-# Tasks Due Yesterday
-report.Overdue.columns=id,start.age,entry.age,depends,priority,project,tags,recur.indicator,scheduled.countdown,due,until,description,urgency
-report.Overdue.description=Tasks Due Yesterday
-report.Overdue.filter=(status:pending or status:waiting) and +OVERDUE and due:yesterday                                                                       
-report.Overdue.labels=ID,Active,Age,Deps,P,Project,Tag,R,S,Due,Until,Description,Urg
-report.Overdue.sort=urgency-,due+
-
-
-# Coding Projects I Got Going On
-
-report.Coding.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Coding.description=Tasks Related To Coding
-report.Coding.filter=(status:pending or status:waiting) and tags:Coding
-report.Coding.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.Coding.sort=project+,priority-,urgency-
-
-# A list of shit I want
-report.Wishlist.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,until.remaining,description.count,urgency,due
-report.Wishlist.description=Shit I Want
-report.Wishlist.filter=(status:pending or status:waiting) and tags:Wishlist
-report.Wishlist.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Until,Description,Urg,Due
-report.Wishlist.sort=project+,due+,urgency-
-
-############################## UDA ############################################
-
-# This increases the value of older entries.
-urgency.age.coefficient=5.0
-
-# Increases the value/weight of anything to do with school
-urgency.user.project.Python.school.coefficient=7.0
-
-# Decreases the weight of a "L" priority: This makes L worth less than No Priority
-urgency.uda.priority.L.coefficient=-2 # low Priority
-
-# Adds an extra Priority Label and Value
-urgency.uda.priority.X.coefficient=12 # Highest Priority
-uda.priority.values=X,H,M,L,
-
-
-############################## COLOR ##########################################
-# A Note on color. Black on black means Darkmode version of black
-# White on black means Normal Mode version of black.
-# If you terminal is in dark mode, use "Black on ..."
-
-
-color=1
-
-color.summary.bar=on color14
-color.summary.background=on color0
-color.alternate=on gray5
-
-# Color theme (uncomment one to use)
-#include /usr/share/doc/task/rc/light-16.theme
-#include /usr/share/doc/task/rc/light-256.theme
-#include /usr/share/doc/task/rc/dark-16.theme
-#include /usr/share/doc/task/rc/dark-256.theme
-#include /usr/share/doc/task/rc/dark-red-256.theme
-#include /usr/share/doc/task/rc/dark-green-256.theme
-#include /usr/share/doc/task/rc/dark-blue-256.theme
-#include /usr/share/doc/task/rc/dark-violets-256.theme
-#include /usr/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/share/doc/task/rc/dark-gray-256.theme
-#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/share/doc/task/rc/solarized-light-256.theme
-#include /usr/share/doc/task/rc/no-color.theme
-
-############################## SYNCING ########################################
-
-# This is server information used to syn my devices.
-taskd.server=freecinc.com:53589
-taskd.key=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.key.pem
-taskd.certificate=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.cert.pem
-taskd.ca=\/home\/tyler\/.config\/task\/.task\/freecinc_3a250e28.ca.pem
-taskd.credentials=FreeCinc\/freecinc_3a250e28\/ba7c312a-0b3d-4659-a2f4-7085d0e015c9
+# Contexts (auto generated)
+context.huske.read=+huske
+context.huske.write=+huske
+context.warrior.read=+warrior
+context.warrior.write=+warrior
+context.ideas.read=+idea
+context.ideas.write=+idea
+news.version=2.6.0
+context=huske

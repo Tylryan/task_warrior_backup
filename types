@@ -1,0 +1,9 @@
+uda.effort.label=Effort
+uda.effort.type=string
+usa.effort.values=XS,S,M,L,XL
+uda.effort.default=M
+
+uda.type.label  = Type
+uda.type.type   = string
+uda.type.values = feature,bug
+#uda.effort.default=feature

@@ -1,0 +1,9 @@
+# 'next' is the default report
+color.tag.next            = rgb440                                                                                                                         
+report.next.columns       = id,start.age,entry.age,depends,priority,effort,project,type,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.next.context       = 1                                                                                                                              
+report.next.description   = Most urgent tasks
+report.next.filter        = status:pending -WAITING limit:page                                                                                             
+report.next.labels        = ID,Active,Age,Deps,P,Effort,Project,Type,Tag,Recur,S,Due,Until,Description,Urg
+report.next.sort          = urgency-                                                                                                                       
+urgency.user.tag.next.coefficient = 15.0
