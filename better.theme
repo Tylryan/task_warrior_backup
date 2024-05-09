@@ -13,6 +13,10 @@ color.uda.effort.M  = rgb131
 color.uda.effort.L  = rgb333
 color.uda.effort.XL = rgb222
 
+color.blocked  = gray10 on gray
+color.blocking = on rgb210
+
+
 color.summary.bar = on rgb040
 color.summary.background = on gray
 color.burndown.done = on rgb040
@@ -22,3 +26,12 @@ color.history.add = bold white on rgb004
 color.history.done = bold white on rgb030
 color.history.delete = bold white on rgb400
 color.warning = rgb331
+
+
+
+color.calendar.today     = on rgb004
+color.calendar.weekend   = gray10
+color.calendar.weeknumber= gray2
+color.calendar.due.today = bold black on white
+color.calendar.due       = bold black on rgb440
+color.calendar.overdue   = bold yellow on rgb400
